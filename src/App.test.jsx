@@ -34,6 +34,6 @@ test('renders player title', () => {
   global.fetch = vi.fn(() => new Promise(() => {}));
 
   render(<App />);
-  const titleElement = screen.getByText(/vinyl loop/i);
+  const titleElement = screen.getByText(/minimal vinyl player/i);
   expect(titleElement).toBeDefined();
 });
