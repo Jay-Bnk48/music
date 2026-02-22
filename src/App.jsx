@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 
 function App() {
-  const bgColor = '#1a1a1a';
+  const bgColor = '#4557b2';
   const [songs, setSongs] = useState([]);
   const [activeIndex, setActiveIndex] = useState(0);
   const [direction, setDirection] = useState(0);
