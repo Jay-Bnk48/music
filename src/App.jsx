@@ -102,8 +102,8 @@ function App() {
       style={{ backgroundColor: bgColor }}
     >
       <main className="mx-auto flex min-h-screen max-w-5xl flex-col items-center justify-center px-4 py-10">
-        <h1 className="mb-8 text-center text-2xl font-semibold tracking-[0.2em] md:text-3xl">
-          MINIMAL VINYL PLAYER
+        <h1 className="mb-8 text-center text-2xl font-semibold tracking-wide md:text-3xl">
+          LOVE MUSIC ENTERTAINMENT
         </h1>
 
         {isLoading && <p className="text-sm text-zinc-300">Loading tracks...</p>}
